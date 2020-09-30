@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Task1",
+      "setup": "",
+      "run": "python3 task1.py",
+      "input": "",
+      "output": "2\r\n4\r\n6\r\n8\r\n10\r\n12\r\n14\r\n16\r\n18\r\n20",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
