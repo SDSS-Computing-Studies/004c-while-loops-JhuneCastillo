@@ -6,7 +6,7 @@
       "run": "python3 task1.py",
       "input": "",
       "output": "2\r\n4\r\n6\r\n8\r\n10\r\n12\r\n14\r\n16\r\n18\r\n20",
-      "comparison": "exact",
+      "comparison": "included",
       "timeout": 1,
       "points": 2
     },
@@ -49,6 +49,26 @@
       "comparison": "regex",
       "timeout": 1,
       "points": 1
+    },
+    {
+      "name": "Problem 2",
+      "setup": "",
+      "run": "python3 problem2.py",
+      "input": "5",
+      "output": "5 10 15 20 25 30 35 40 45 50 55 60 ",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Problem 3",
+      "setup": "",
+      "run": "python3 problem3.py",
+      "input": "",
+      "output": "1 1 2 3 5 8 13 21 34 55 89 144",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
     }
   ]
 }
