@@ -26,7 +26,7 @@
       "run": "python3 task3.py",
       "input": "1.3\r\n4",
       "output": ".*That is not an even integer.*That is an even integer.*",
-      "comparison": "included",
+      "comparison": "regex",
       "timeout": 1,
       "points": 2
     },
