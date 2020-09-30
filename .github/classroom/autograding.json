@@ -44,8 +44,8 @@
       "name": "Problem1b",
       "setup": "",
       "run": "python3 problem1.py",
-      "input": "bob\r\n1234\r\nsally\r\n1234\r\ncarl\r\n1234\r\ntuco\r\n1234",
-      "output": ".*Access denied.*Access denied.*Access denied.*Access denied",
+      "input": "bob\r\n1234\r\nsally\r\n1234\r\ncarl\r\n1234",
+      "output": ".*Access denied.*Access denied.*Access denied.*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
