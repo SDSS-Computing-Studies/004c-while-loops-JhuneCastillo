@@ -6,6 +6,16 @@
       "run": "python3 task1.py",
       "input": "",
       "output": "2\r\n4\r\n6\r\n8\r\n10\r\n12\r\n14\r\n16\r\n18\r\n20",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Task2 py",
+      "setup": "",
+      "run": "python3 task2.py",
+      "input": "admin\r\n12345",
+      "output": "Access granted",
       "comparison": "included",
       "timeout": 1,
       "points": 2
