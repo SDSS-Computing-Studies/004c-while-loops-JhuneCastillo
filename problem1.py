@@ -17,3 +17,24 @@ outputs:
 Access granted
 Acces denied
 """
+
+import time 
+
+username = str(input("Username: ")).strip()
+password = str(input("Password: ")).strip()
+
+username1 = str("admin")
+password1 = str("12345")
+countTries = 0
+
+while username != username1 and password != password1:
+    print ("Access denied")
+    countTries = countTries + 1
+    if countTries > 2:
+        break
+    username = str(input("Username: ")).strip()
+    password = str(input("Password: ")).strip()
+    
+    
+if username == username1 and password == password1: 
+        print("Access granted")

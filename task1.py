@@ -16,3 +16,13 @@ Example:
 10
 ...
 """
+
+import time
+
+targetNum = 22
+count = 0
+
+while count != targetNum:
+    print(count)
+    count = count + 2 
+    time.sleep(0.5)
