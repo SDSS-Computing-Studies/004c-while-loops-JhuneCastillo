@@ -45,7 +45,7 @@
       "setup": "",
       "run": "python3 problem1.py",
       "input": "bob\r\n1234\r\nsally\r\n1234\r\ncarl\r\n1234",
-      "output": "[.\\r\\n]*Access denied[.\\r\\n]*Access denied[.\\r\\n]*Access denied/i",
+      "output": "[.\\r\\n\\s\\S]*Access denied[.\\r\\n\\s\\S]*Access denied[.\\r\\n\\s\\S]*Access denied",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
